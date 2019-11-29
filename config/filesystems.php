@@ -64,6 +64,7 @@ return [
 			'secret' => env('S3_SECRET', ''),
 			'region' => env('S3_REGION', 'us-east-1'),
 			'bucket' => env('S3_BUCKET', ''),
+			'endpoint' => env('S3_ENDPOINT', 'https://s3.amazonaws.com'),
 		],
 
 		'rackspace' => [
