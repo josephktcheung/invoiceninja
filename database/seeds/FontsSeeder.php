@@ -221,6 +221,17 @@ class FontsSeeder extends Seeder
                 'sort_order' => 1800,
             ],
             [
+                'folder' => 'arial_ms',
+                'name' => 'Arial Unicode MS',
+                'css_stack' => '',
+                'google_font' => '',
+                'normal' => 'arial_ms.ttf',
+                'bold' => 'arial_ms.ttf',
+                'italics' => 'arial_ms.ttf',
+                'bolditalics' => 'arial_ms.ttf',
+                'sort_order' => 1800,
+            ],
+            [
                 'folder' => 'gensha_gothic_p',
                 'name' => 'GenshinGothic P - Japanese',
                 'css_stack' => '',
